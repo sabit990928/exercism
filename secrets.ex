@@ -13,7 +13,7 @@ defmodule Secrets do
     fn param -> param - secret end
   end
 
-  # Mulitplier
+  # Multiplier
   def secret_multiply(secret) do
     &(secret * &1)
   end
