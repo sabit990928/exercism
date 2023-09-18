@@ -14,8 +14,13 @@ Modules with at least one solved task:
 - Default arguments
 - Guards
 - Multiple clause functions
+- Pattern matching
+- Tuples
 
 Open, but not solved modules(WIP):
 
-- Pattern matching
-- Tuples
+- Recursion
+- Maps
+- Module attributes as constants
+- If
+- Nil
