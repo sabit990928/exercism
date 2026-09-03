@@ -1,4 +1,6 @@
 defmodule Username do
+  def sanitize([]), do: []
+
   def sanitize(username) do
     # ä becomes ae
     # ö becomes oe
@@ -6,10 +8,6 @@ defmodule Username do
     # ß becomes ss
 
     only_lowercase(username, [])
-  end
-
-  def only_lowercase([], []) do
-    []
   end
 
   def only_lowercase([], sanitized) do
