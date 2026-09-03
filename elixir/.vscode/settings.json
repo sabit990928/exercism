@@ -1,0 +1,4 @@
+{
+  // Manual practice repo: all built-in Copilot features off for this workspace.
+  "chat.disableAIFeatures": true
+}
